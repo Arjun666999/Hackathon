@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./healthstore.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container1">
+            <ul>
+                <li><a href="healthstore.html" target="_blank">Health Store</a></li>
+                <li><a href="reviews.html" target="_blank">Reviews</a></li>
+                <li><a href="about.html " target="_blank">About me</a></li>
+                <li><a href="Mainpage.html" target="_blank">Homepage</a></li>
+                <li><a href="contact.html" target="_blank">Contact</a></li>        
+            </ul>
+        </div>
+    </nav>
+
+    <div class="mainpic1">
+        <img class="pic4" src="./pic4.jpg"/>
+        <div class="corpname">Healthy Life</div>
+        <h1 class="titel">Bestel hier uw Healthy Life producten</h1>
+    </div>
+
+    <div class="store">
+        <form class="products">
+            <fieldset>
+                <legend class="product1">Order your Milkshake here</legend>
+                    <p>
+                    <label for="flavor" name="flavor">Flavor :</label>
+                    <select id="flavor" name="flavor" required>
+
+                        <optgroup label="Standard flavors">
+                            <option value="natural-flavor" selected>Natural flavor</option>
+                            <option value="chocolate-flavor">Chocolate flavor</option>
+                            <option value="coffee-flavor">Coffee flavor</option>
+                        </optgroup>
+
+                        <optgroup label="Fruit flavors">
+                            <option value="banana-flavor">Banana flavor</option> 
+                            <option value="strawberry-flavor">Strawberry flavor</option>
+                            <option value="cherry-flavor">Cherry flavor</option>
+                            <option value="chipolata-flavor">Chipolata flavor</option>
+                            <option value="mango-flavor">Mango flavor</option>
+                        </optgroup>
+                    </select>
+                    </p>
+            </fieldset>
+
+            <fieldset>
+                <legend class="product2">Container size:</legend>
+                    <p>
+                        <label for="size1" name="containersize">100 grams</label>
+                        <input id="size1" type="radio" name="containersize">
+                    </p>
+
+                    <p>
+                        <label for="size2" name="containersize">250 grams</label>
+                        <input id="size2" type="radio" name="containersize">
+                    </p>
+
+                    <p>
+                        <label for="size3" name="containersize">500 grams</label>
+                        <input id="size3" type="radio" name="containersize">
+                    </p>
+
+                    <p>
+                        <label for="size4" name="containersize">1000 grams</label>
+                        <input id="size4" type="radio" name="containersize">
+                    </p>
+
+                    <p>
+                        <label for="size5" name="containersize">2000 grams</label>
+                        <input id="size5" type="radio" name="containersize">
+                    </p>
+            </fieldset>
+
+            <fieldset>   
+                <legend class="product3">Amount:</legend>
+                    <label for="amount" name="amount">How many containers do you want to order ?</label>
+                    <input id="amount" type="number" min="1" max="25" value="1" required>   
+            </fieldset>
+
+            <fieldset>
+                <legend class="personalinfo">Personal information</legend>
+                    <p class="pi">
+                        <label class="pi1" for="name" name="name">Name :</label>
+                        <input class="pi2" id="name" type="text" name="name" placeholder="Type name here" required>
+                    </p>
+
+                    <p class="pi">
+                        <label class="pi1" for="surname" name="surname">SurName :</label>
+                        <input class="pi2" id="surname" type="text" name="surname" placeholder="Type surname here" required>
+                    </p>
+
+                    <p class="pi">
+                        <label class="pi1" for="postalcode" name="postalcode">Postalcode :</label>
+                        <input class="pi2" id="postalcode" type="text" name="postalcode" pattern="[0-9]*" placeholder="Type postalcode here" required>
+                    </p>
+
+                    <p class="pi">
+                        <label class="pi1" for="place" name="place">Place :</label>
+                        <input class="pi2" id="place" type="text" name="place" placeholder="Type place here" required>
+                    </p>
+
+                    <p class="pi">
+                        <label class="pi1" for="country" name="Country">Country :</label>
+                        <select class="pi2" id="country" name="country" required>
+                            <optgroup label="Europe">
+                                <option value="Netherlands">Netherlands</option>
+                                <option value="Belgium">Belgium</option>
+                                <option value="Germany">Germany</option>
+                                <option value="France">France</option>
+                                <option value="Spain">Spain</option>
+                                <option value="Italy">Italy</option>
+                                <option value="Swiss">Swiss</option>
+                            </optgroup>
+
+                            <optgroup label="Asia">
+                                <option value="India">India</option>
+                                <option value="China">China</option>
+                                <option value="South-Korea">South-Korea</option>
+                                <option value="Fillipines">Fillipines</option>
+                            </optgroup>
+
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+
+                    <p class="pi">
+                        <label class="pi1" for="birth" name="birth">Day of birth :</label>
+                        <input class="pi2" id="birth" type="date" name="birth" >
+                    </p>
+
+                    <p class="pi">
+                        <label class="pi1" for="phone" name="phone">Phone number :</label>
+                        <input class="pi2" id="phone" type="tel" name="phone" placeholder="Type phone number here" required>
+                    </p>
+
+                    <br>
+
+                    <p class="pi">
+                        <p>Want to stay up-to-date about our offers by mail ?</p>
+                        <label for="spam1" name="spam1">Yes</label>
+                        <input id="spam1" type="radio" name="spam" value="Yes">
+
+                        <label for="spam2" name="spam2">No</label>
+                        <input id="spam2" type="radio" name="spam" value="No">
+                    </p>
+            </fieldset>
+
+            <fieldset class="comments">
+                <legend>Send us any comments or suggestions here please</legend>
+                    <label for="message">Message</label>
+                    <br>
+                    <textarea id="message" name="message" cols="30" rows="15" placeholder="type your message here"></textarea>
+            </fieldset>
+
+
+            <fieldset class="submit">
+                <legend class="submit1">Submit your order here</legend>
+                    <button type="submit2">Submit</button>
+                    <button type="reset">Reset</button>
+            </fieldset>
+        </form>
+    </div>
+
+    <footer class="footer">
+        <div class="site-footer">
+            <ul>
+                <li><a href="https://www.happywithyoga.com/yoga/yoga-voor-beginners/" target="_blank">Yoga voor beginners</a></li>
+                <li><a href="https://www.lekkerensimpel.com/tag/gezonde-recepten/" target="_blank">Gezond koken</a></li>
+                <li><a href="https://www.libelle-lekker.be/artikelen/172159/deze-kruiden-zijn-onmisbaar-in-je-kruidentuin" target="_blank">Verse kruiden</a></li>
+                <li><a href="https://www.verantwoord-afvallen.nl/beweging/fitness-voor-beginners" target="_blank">Sport voor beginners</a></li>
+                <li><a href="https://www.happywithyoga.com/yoga/pranayama/" target="_blank">Pranayama (Ademhalings) oefeningen</a></li>
+                <li><a href="https://sochicken.nl/mediteren-voor-beginners" target="_blank">Meditatie voor beginners</a></li>
+            </ul>
+        </div>
+    </footer>
+   
+</body>
+</html>
