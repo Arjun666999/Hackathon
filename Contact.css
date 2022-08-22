@@ -52,6 +52,7 @@ body {
 
 .contactgegevens {
     display: block;
+    text-align: center;
 }
 
 .titel {
@@ -101,12 +102,13 @@ ul {
 
 .container2 {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .helpdesk {
-    width: 400px;
-    height: 300px;
-
+    max-width: 50%;
+    height: auto;
 }
 
 
@@ -128,7 +130,7 @@ ul {
     }
 
     .container2 {
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
     }
@@ -191,6 +193,11 @@ ul {
         grid-area: column;
         text-align: center;
     }
+
+    .container2 {
+        flex-direction: column;
+    }
+
 }
 
 

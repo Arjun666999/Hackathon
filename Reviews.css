@@ -187,7 +187,6 @@ a {
         display: grid;
         list-style: none;
         grid-area: column;
-        text-align: center;
     }
     
     
@@ -195,7 +194,6 @@ a {
         display: grid;
         list-style: none;
         grid-area: column;
-        text-align: center;
     }
 
 
