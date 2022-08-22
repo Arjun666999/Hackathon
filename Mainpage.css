@@ -98,6 +98,9 @@ a {
 .welkom, .gezondleven1, .gezondleven2, .sadhguru {
     padding-top: 15px;
     padding-bottom: 10px;
+    border: 5px rgb(187, 63, 63);
+    border-style: double;
+    border-radius: 10%;
 }
 
 .sadhguru {
@@ -105,6 +108,7 @@ a {
     max-width: 100%;
     padding-bottom: 56.25%; 
     height: 0;
+    border-style: none;
     }
 
 
