@@ -9,6 +9,8 @@
 .pic1 {
     max-width: 100%;
     height: auto;
+    border: 5px rgb(248, 91, 91);
+    border-style: double;    
 }
 
 

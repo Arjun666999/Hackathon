@@ -10,12 +10,16 @@
 .pic2 {
     max-width: 100%;
     height: auto;
+    border: 5px rgb(248, 91, 91);
+    border-style: double;
 }
 
 .pic5 {
     width: 175px;
     height: 250px;
     border-radius: 25%;
+    border: 5px rgb(245, 125, 81);
+    border-style: double;
 }
 
 body {

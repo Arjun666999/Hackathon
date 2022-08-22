@@ -9,6 +9,8 @@
 .pic4 {
     max-width: 100%;
     height: auto;
+    border: 5px rgb(248, 91, 91);
+    border-style: double;
 }
 
 
@@ -84,6 +86,7 @@ body {
 legend {
     font-size: 20px;
     font-weight: bold;
+    color: brown;
 }
 
 .corpname {

@@ -9,6 +9,8 @@
 .pic6 {
     max-width: 100%;
     height: auto;
+    border: 5px rgb(248, 91, 91);
+    border-style: double;
 }
 
 
@@ -16,6 +18,8 @@
     width: 100px;
     height: auto;
     border-radius: 30%;
+    border: 5px rgb(245, 125, 81);
+    border-style: double;
 }
 
 
@@ -69,7 +73,7 @@ body {
 
 
 .cont1, .cont2, .cont3, .cont4, .cont5, .cont6, .cont7, .cont8 {
-    border: 2px solid black;
+    border: 5px solid rgb(199, 76, 76);
     border-radius: 10%;
     max-width: 250px;
     max-height: auto;
