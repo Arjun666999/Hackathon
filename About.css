@@ -15,10 +15,11 @@
 .pic5 {
     width: 175px;
     height: 250px;
+    border-radius: 25%;
 }
 
 body {
-    background-color: beige;
+    background-image: linear-gradient(to bottom right, rgb(240, 148, 148), beige);
     font-size: 10px;
     display: grid;
     grid-template-areas: 

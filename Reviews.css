@@ -15,12 +15,13 @@
 .portrait {
     width: 100px;
     height: auto;
+    border-radius: 30%;
 }
 
 
 
 body {
-    background-color: beige;
+    background-image: linear-gradient(to bottom right, rgb(240, 148, 148), beige);
     gap: 5px;
     font-size: 10px;
 
