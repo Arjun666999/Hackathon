@@ -14,7 +14,7 @@
 
 
 body {
-    background-image: linear-gradient(to bottom right, rgb(240, 148, 148), beige);
+    background-image: linear-gradient(to bottom right, rgb(240, 148, 148), rgb(248, 231, 155));
     display: grid;
     grid-template-areas: 
     '.navbar'
